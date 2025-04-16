@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom ESX HUD</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Contenedor superior izquierdo -->
+    <div id="hud-upper-left" class="hud-container">
+        <div class="hud-item">
+            <img src="images/money.png" alt="Dinero" class="icon">
+            <span id="handCash">$0</span>
+        </div>
+        <div class="hud-item">
+            <img src="images/bank.png" alt="Banco" class="icon">
+            <span id="bankMoney">$0</span>
+        </div>
+        <div class="hud-item">
+            <img src="images/id.png" alt="ID" class="icon">
+            <span id="playerId">ID: 0</span>
+        </div>
+    </div>
+
+    <!-- Contenedor inferior derecho -->
+    <div id="hud-lower-right" class="hud-container">
+        <div class="hud-icon">
+            <div class="progress-ring">
+                <img src="images/hunger.png" alt="Hambre" class="round-icon">
+                <span id="hunger">100%</span>
+            </div>
+        </div>
+        <div class="hud-icon">
+            <div class="progress-ring">
+                <img src="images/thirst.png" alt="Sed" class="round-icon">
+                <span id="thirst">100%</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
